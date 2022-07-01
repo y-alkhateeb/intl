@@ -475,6 +475,7 @@ final pluralRules = {
   'af': _af_rule,
   'am': _hi_rule,
   'ar': _ar_rule,
+  'ar_SY': _ar_rule,
   'ar_DZ': _ar_rule,
   'ar_EG': _ar_rule,
   'az': _af_rule,

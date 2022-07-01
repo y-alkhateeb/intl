@@ -77,6 +77,24 @@ Map<dynamic, dynamic> numberFormatSymbols = <String, NumberSymbols>{
       PERCENT_PATTERN: '#,##0%',
       CURRENCY_PATTERN: '\u00A4\u00A0#,##0.00',
       DEF_CURRENCY_CODE: 'EGP'),
+  // Number formatting symbols for locale ar_sy.
+  "ar_SY": new NumberSymbols(
+      NAME: "ar_SY",
+      DECIMAL_SEP: '.',
+      GROUP_SEP: ',',
+      PERCENT: '\u200E%\u200E',
+      ZERO_DIGIT: '0',
+      PLUS_SIGN: '\u200E+',
+      MINUS_SIGN: '\u200E-',
+      EXP_SYMBOL: 'E',
+      PERMILL: '\u2030',
+      INFINITY: '\u221E',
+      NAN: '\u0644\u064A\u0633\u00A0\u0631\u0642\u0645\u064B\u0627',
+      DECIMAL_PATTERN: '#,##0.###',
+      SCIENTIFIC_PATTERN: '#E0',
+      PERCENT_PATTERN: '#,##0%',
+      CURRENCY_PATTERN: '\u00A4\u00A0#,##0.00',
+      DEF_CURRENCY_CODE: 'SYP'),
   // Number formatting symbols for locale ar_DZ.
   "ar_DZ": new NumberSymbols(
       NAME: "ar_DZ",
@@ -2101,6 +2119,47 @@ Map<String, CompactNumberSymbols> compactNumberSymbols = {
   }),
   // Compact number symbols for locale ar.
   "ar": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
+    3: {
+      'few': '0\u00A0\u0622\u0644\u0627\u0641',
+      'many': '0\u00A0\u0623\u0644\u0641',
+      'one': '0\u00A0\u0623\u0644\u0641',
+      'other': '0\u00A0\u0623\u0644\u0641',
+      'two': '0\u00A0\u0623\u0644\u0641',
+      'zero': '0\u00A0\u0623\u0644\u0641',
+    },
+    4: {'other': '00\u00A0\u0623\u0644\u0641'},
+    6: {'other': '0\u00A0\u0645\u0644\u064A\u0648\u0646'},
+    9: {'other': '0\u00A0\u0645\u0644\u064A\u0627\u0631'},
+    12: {'other': '0\u00A0\u062A\u0631\u0644\u064A\u0648\u0646'},
+  }, COMPACT_DECIMAL_LONG_PATTERN: const {
+    3: {
+      'few': '0 \u0622\u0644\u0627\u0641',
+      'many': '0 \u0623\u0644\u0641',
+      'one': '0 \u0623\u0644\u0641',
+      'other': '0 \u0623\u0644\u0641',
+      'two': '0 \u0623\u0644\u0641',
+      'zero': '0 \u0623\u0644\u0641',
+    },
+    4: {'other': '00 \u0623\u0644\u0641'},
+    6: {
+      'few': '0 \u0645\u0644\u0627\u064A\u064A\u0646',
+      'many': '0 \u0645\u0644\u064A\u0648\u0646',
+      'one': '0 \u0645\u0644\u064A\u0648\u0646',
+      'other': '0 \u0645\u0644\u064A\u0648\u0646',
+      'two': '0 \u0645\u0644\u064A\u0648\u0646',
+      'zero': '0 \u0645\u0644\u064A\u0648\u0646',
+    },
+    8: {'other': '000 \u0645\u0644\u064A\u0648\u0646'},
+    9: {'other': '0 \u0645\u0644\u064A\u0627\u0631'},
+    12: {'other': '0 \u062A\u0631\u0644\u064A\u0648\u0646'},
+  }, COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN: const {
+    3: {'other': '0\u00A0\u0623\u0644\u0641\u00A0\u00A4'},
+    6: {'other': '0\u00A0\u0645\u0644\u064A\u0648\u0646\u00A0\u00A4'},
+    9: {'other': '0\u00A0\u0645\u0644\u064A\u0627\u0631\u00A0\u00A4'},
+    12: {'other': '0\u00A0\u062A\u0631\u0644\u064A\u0648\u0646\u00A0\u00A4'},
+  }),
+  // Compact number symbols for locale ar_SY.
+  "ar_SY": new CompactNumberSymbols(COMPACT_DECIMAL_SHORT_PATTERN: const {
     3: {
       'few': '0\u00A0\u0622\u0644\u0627\u0641',
       'many': '0\u00A0\u0623\u0644\u0641',

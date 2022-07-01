@@ -633,6 +633,168 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           FIRSTDAYOFWEEK: 5,
           WEEKENDRANGE: const [4, 5],
           FIRSTWEEKCUTOFFDAY: 4),
+      // Date/time formatting symbols for locale ar.
+      "ar_SY": new DateSymbols(
+      NAME: "ar",
+      ZERODIGIT: '٠',
+      ERAS: const ['ق.م', 'م'],
+      ERANAMES: const ['قبل الميلاد', 'ميلادي'],
+          NARROWMONTHS: const [
+            '١',
+            '٢',
+            '٣',
+            '٤',
+            '٥',
+            '٦',
+            '٧',
+            '٨',
+            '٩',
+            '١٠',
+            '١١',
+            '١٢'
+          ],
+          STANDALONENARROWMONTHS: const [
+            '١',
+            '٢',
+            '٣',
+            '٤',
+            '٥',
+            '٦',
+            '٧',
+            '٨',
+            '٩',
+            '١٠',
+            '١١',
+            '١٢'
+          ],
+      MONTHS: const [
+        'كانون الثاني',
+        'شباط',
+        'آذار',
+        'نيسان',
+        'أيار',
+        'حزيران',
+        'تموز',
+        'آب',
+        'أيلول',
+        'تشرين الأول',
+        'تشرين الثاني',
+        'كانون الأول'
+      ],
+      STANDALONEMONTHS: const [
+        'كانون الثاني',
+        'شباط',
+        'آذار',
+        'نيسان',
+        'أيار',
+        'حزيران',
+        'تموز',
+        'آب',
+        'أيلول',
+        'تشرين الأول',
+        'تشرين الثاني',
+        'كانون الأول'
+      ],
+      SHORTMONTHS: const [
+        'كانون الثاني',
+        'شباط',
+        'آذار',
+        'نيسان',
+        'أيار',
+        'حزيران',
+        'تموز',
+        'آب',
+        'أيلول',
+        'تشرين الأول',
+        'تشرين الثاني',
+        'كانون الأول'
+      ],
+      STANDALONESHORTMONTHS: const [
+        'كانون الثاني',
+        'شباط',
+        'آذار',
+        'نيسان',
+        'أيار',
+        'حزيران',
+        'تموز',
+        'آب',
+        'أيلول',
+        'تشرين الأول',
+        'تشرين الثاني',
+        'كانون الأول'
+      ],
+      WEEKDAYS: const [
+        'الأحد',
+        'الاثنين',
+        'الثلاثاء',
+        'الأربعاء',
+        'الخميس',
+        'الجمعة',
+        'السبت'
+      ],
+      STANDALONEWEEKDAYS: const [
+        'الأحد',
+        'الاثنين',
+        'الثلاثاء',
+        'الأربعاء',
+        'الخميس',
+        'الجمعة',
+        'السبت'
+      ],
+      SHORTWEEKDAYS: const [
+        'الأحد',
+        'الاثنين',
+        'الثلاثاء',
+        'الأربعاء',
+        'الخميس',
+        'الجمعة',
+        'السبت'
+      ],
+      STANDALONESHORTWEEKDAYS: const [
+        'الأحد',
+        'الاثنين',
+        'الثلاثاء',
+        'الأربعاء',
+        'الخميس',
+        'الجمعة',
+        'السبت'
+      ],
+      NARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
+      STANDALONENARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
+      SHORTQUARTERS: const [
+        'الربع الأول',
+        'الربع الثاني',
+        'الربع الثالث',
+        'الربع الرابع'
+      ],
+      QUARTERS: const [
+        'الربع الأول',
+        'الربع الثاني',
+        'الربع الثالث',
+        'الربع الرابع'
+      ],
+      AMPMS: const ['ص', 'م'],
+      DATEFORMATS: const [
+        'EEEE، d MMMM y',
+        'd MMMM y',
+        'dd‏/MM‏/y',
+        'd‏/M‏/y'
+      ],
+      TIMEFORMATS: const [
+        'h:mm:ss a zzzz',
+        'h:mm:ss a z',
+        'h:mm:ss a',
+        'h:mm a'
+      ],
+      DATETIMEFORMATS: const [
+        '{1} في {0}',
+        '{1} في {0}',
+        '{1}, {0}',
+        '{1}, {0}'
+      ],
+      FIRSTDAYOFWEEK: 5,
+      WEEKENDRANGE: const [4, 5],
+      FIRSTWEEKCUTOFFDAY: 4),
       // Date/time formatting symbols for locale ar_DZ.
       "ar_DZ": new DateSymbols(
           NAME: "ar_DZ",
